@@ -31,3 +31,13 @@ Start the development server with this command:
 ```
 npm start
 ```
+
+
+What's missing:
+- CSS processor(s)
+- HMR / Auto Reload
+- Routing
+- Flux/Redux/MobX
+- Server-side rendering
+- Database
+- AJAX / Networking
