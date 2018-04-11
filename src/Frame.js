@@ -19,6 +19,7 @@ class Frame extends React.Component {
         <Header
           logo={content.logo}
           text={content.title}
+          menu={content.menu}
         />
         <PageBody
 
@@ -26,6 +27,7 @@ class Frame extends React.Component {
         <Footer
           address={content.address}
           contact={content.contact}
+          social={content.social}
         />
       </div>
     );

@@ -50,6 +50,15 @@ h1 {
     padding: 0 1em;
 }
 
+.modal {
+    display: none;
+    grid-template-rows: 1fr;
+}
+
+.button {
+  padding: 0.2em 1em;
+}
+
 .aether .page-body {
     height: auto;
 }

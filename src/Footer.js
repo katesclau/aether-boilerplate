@@ -14,7 +14,7 @@ const Footer = (props) => (
     <div className="social">
       {props.social && props.social.map(social => (
         <a href={social.link}>
-          <i className={"fab " + props.social.icon} />
+          <i className={"fa " + social.icon} />
         </a>
       ))}
     </div>
