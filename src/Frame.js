@@ -15,7 +15,7 @@ class Frame extends React.Component {
 
   render() {
     return (
-      <div className="aether-frame">
+      <div className="aether frame teal-light">
         <Header
           logo={content.logo}
           text={content.title}

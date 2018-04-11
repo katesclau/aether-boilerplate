@@ -18,6 +18,14 @@ module.exports = {
           'babel-loader',
         ],
       },
+      {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+      {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        loader: 'file-loader?name=public/fonts/[name].[ext]'
+      },
     ],
   },
 };

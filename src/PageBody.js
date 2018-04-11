@@ -4,7 +4,7 @@ class PageBody extends PureComponent {
 
   render() {
     return (
-      <div className="aether-page-body">
+      <div className="aether page-body teal-medium">
       </div>
     );
   }

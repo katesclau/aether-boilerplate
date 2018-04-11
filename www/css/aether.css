@@ -1,9 +1,77 @@
 body {
-    background-color: lightblue;
-    font-family: sans-serif;
+    font-family: 'Sintony', sans-serif;
+    color: #3C3B3B;
+    margin: 0;
 }
 
 h1 {
-    color: navy;
     margin-left: 20px;
+}
+
+.teal-light {
+  background-color: #DEEEEB;
+}
+
+.teal-medium {
+  background-color: #81BAAD;
+}
+
+.teal-dark {
+  background-color: #306D6D;
+}
+
+.orange-light {
+  background-color: #F4E9E1;
+}
+
+.orange-medium {
+  background-color: #FAD3AC;
+}
+
+.orange-dark {
+  background-color: #E69055;
+}
+
+.aether.frame {
+    display: grid;
+    justify-content: initial;
+    grid-template-rows: 1fr 6fr 1fr;
+    padding: 0.2em;
+}
+
+.aether > div + div {
+  margin: 0.2em 0 0 0;
+}
+
+.aether .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+.aether .page-body {
+    height: auto;
+}
+
+.aether .footer {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.aether .contact {
+    align-items: center;
+    justify-content: center;
+}
+
+.aether .social {
+    align-items: center;
+    justify-content: center;
+}
+
+.aether .logo {
+  height: 4em;
 }
