@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Frame from './Frame';
+import Frame from './components/Frame';
 import 'font-awesome/css/font-awesome.min.css';
 import './sass/index.scss';
 

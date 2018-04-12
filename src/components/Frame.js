@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import PageBody from './PageBody';
 import Footer from './Footer';
-import content from './static';
+import content from '../static';
 
 /**
  * A Full sized frame container
@@ -23,11 +23,6 @@ class Frame extends React.Component {
         />
         <PageBody
 
-        />
-        <Footer
-          address={content.address}
-          contact={content.contact}
-          social={content.social}
         />
       </div>
     );

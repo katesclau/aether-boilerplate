@@ -25,7 +25,7 @@
 .aether.frame {
     display: grid;
     justify-content: initial;
-    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-rows: 1fr 11fr;
     padding: 0.2em;
 }
 
@@ -41,12 +41,14 @@
 }
 
 .modal {
-    display: none;
+    display: block;
+    position: absolute;
     grid-template-rows: 1fr;
+    margin-right: 1.5em;
 }
 
-.button {
-  padding: 0.2em 1em;
+.hidden {
+    display: none;
 }
 
 .aether .page-body {

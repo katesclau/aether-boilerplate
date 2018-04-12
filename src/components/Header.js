@@ -13,7 +13,7 @@ const Header = (props) => (
       />
     </div>
     <div>
-      <h1 className="text">{props.text}</h1>
+      <h1 className="h1">{props.text}</h1>
     </div>
     <Menu menu={props.menu}/>
   </div>
