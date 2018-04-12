@@ -15,12 +15,12 @@ class Menu extends Component {
   render() {
     return (
       <div>
-        <div className="menu" onClick={this.click}>
-          <i className="fa fa-bars fa-3x" />
+        <div className="menu btn hover-grow" onClick={this.click}>
+          <i className="fa fa-bars fa-2x" />
         </div>
-        <div className="modal">
+        <div className="Popover-message Popover-message--top-right text-left p-4 mt-2 Box box-shadow-large">
           {this.props.menu && this.props.menu.map(item => (
-            <a href={item.path} className="button">
+            <a href={item.path} className="button" key={item.name}>
               {item.icon ? <i className={"fa " + item.icon} /> : ""}
               item.name
             </a>

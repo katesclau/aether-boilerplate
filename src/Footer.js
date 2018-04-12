@@ -13,7 +13,7 @@ const Footer = (props) => (
     </div>
     <div className="social">
       {props.social && props.social.map(social => (
-        <a href={social.link}>
+        <a href={social.link} key={social.key}>
           <i className={"fa " + social.icon} />
         </a>
       ))}

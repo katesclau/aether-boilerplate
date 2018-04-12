@@ -16,14 +16,19 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
     "express": "^4.16.2",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.8.3",
+    "primer": "^10.4.0",
+    "primer-buttons": "^2.5.3",
+    "primer-core": "^6.8.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "webpack": "^3.10.0",
-    "font-awesome": "^4.7.0",
-    "css-loader": "^0.28.11",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "file-loader": "^1.1.11",
+    "webpack": "^3.10.0",
     "webpack-dev-middleware": "^2.0.4"
   }
 }
